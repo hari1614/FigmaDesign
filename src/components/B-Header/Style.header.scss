@@ -1,0 +1,136 @@
+.header-container {
+    background: #FBFCFD;
+    border-radius: 0px;
+
+    .header-content {
+        position: relative;
+        max-width: 900px;
+
+        h1 {
+            position: absolute;
+            width: 100%;
+            height: 60px;
+            left: 284px;
+            top: 20px; //102
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 60px;
+            color: #2C384A;
+        }
+
+        #icon-detail-1,
+        #icon-detail-2,
+        #select-detals,
+        #icon-1,
+        #icon-2 {
+            position: absolute;
+            top: 90px;
+            border-top: 1px solid #E1E4E6;
+            border-bottom: 1px solid #E1E4E6;
+            padding: 12px;
+        }
+
+        #icon-detail-1 {
+            width: 100%;
+            height: 20px;
+            left: 312px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #4B5665;
+        }
+
+        #icon-detail-2 {
+            width: 720px;
+            height: 20px;
+            left: 584px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #4B5665;
+        }
+
+        #icon-1 {
+            width: 20px;
+            height: 20px;
+            left: 284px;
+            border-radius: 0px;
+        }
+
+        #icon-2 {
+            width: 20px;
+            height: 20px;
+            left: 556px;
+            border-radius: 0px;
+        }
+
+        #select-details {
+            position: absolute;
+            width: 120px;
+            height: 20px;
+            left: 1194px;
+            top: 103px; //187
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: #727D87;
+            border: #FBFCFD;
+        }
+    }
+
+    .categories {
+        position: absolute;
+        width: 934px;
+        height: 20px;
+        left: 300px;
+        top: 230px; //243
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5665;
+
+        span {
+            padding-right: 70px;
+        }
+    }
+
+    .sub-categories {
+        ul {
+            list-style: none;
+            padding: 0;
+            position: absolute;
+            height: 20px;
+            left: 289px;
+            top: 280px; //287
+            font-weight: 400;
+            font-size: 13.5px;
+            line-height: 20px;
+            color: #727D87;
+
+            li {
+                display: inline-block;
+                margin-right: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: #2C384A;
+                    padding: 0px 0px 0px 10px;
+
+                }
+
+                a:hover {
+                    color: #727D87;
+                }
+            }
+        }
+    }
+
+    .sub-categories ul li:last-child {
+        margin-right: 0;
+    }
+}

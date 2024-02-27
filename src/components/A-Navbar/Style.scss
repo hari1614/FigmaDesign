@@ -1,0 +1,53 @@
+.navbar {
+    border: 1px solid black;
+    width: 1519px; //1614px;
+    height: 64px;
+    background-color: #212731;
+    text-align: center;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+
+    .search {
+        input {
+            box-sizing: border-box;
+            position: absolute;
+            width: 258px;
+            height: 37px;
+            left: 480px;
+            top: 14px;
+            background: #FFFFFF;
+            border: 1px solid #E1E4E6;
+            border-radius: 8px;
+        }
+    }
+}
+
+.nav-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 489px;
+    top: 19px;
+    border-radius: 0px;
+}
+
+.list-items {
+    ul {
+        margin: 20px 0px 0px 52%;
+        display: flex;
+        list-style: none;
+        gap: 4rem;
+
+        li {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #D1D6DA;
+
+
+        }
+    }
+}
