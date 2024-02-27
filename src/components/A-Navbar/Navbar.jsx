@@ -14,6 +14,7 @@ const Navbar = () => {
         <ul className="list-item">
           <li>Categories</li>
           <li>Website Builders</li>
+          <li>Today's deals</li>
         </ul>
       </div>
     </div>
